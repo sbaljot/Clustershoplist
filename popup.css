@@ -1,0 +1,11 @@
+body{
+    min-width: 400px;
+    max-height: 500px;
+    font-family: 'Cabin', sans-serif;
+}
+.accordion,.btn{
+    display: none;
+}
+#opentext{
+    margin-top: 5%;
+}

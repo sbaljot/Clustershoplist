@@ -1,0 +1,14 @@
+{
+    "name": "Cluster ShopList",
+    "version": "1.0",
+    "description": "Combine your shopping list into one.",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "background":{
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "permissions": ["tabs","activeTab","storage"]
+}
