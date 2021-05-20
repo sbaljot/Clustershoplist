@@ -4,8 +4,12 @@ body{
     font-family: 'Cabin', sans-serif;
 }
 .accordion,.btn{
-    display: none;
+    display: block;
+    margin-top: -6%;
 }
 #opentext{
     margin-top: 5%;
+}
+img,#opentext{
+    display: none;
 }
